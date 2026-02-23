@@ -102,8 +102,8 @@ void main_init(uint32_t *graph)
     my_instance.scheduler_control = PACK_NANOGRAPH_PARAM(
             NANOGRAPH_CURRENT_INSTANCE,            // instance index
             NANOGRAPH_INSTANCE_LOWLATENCYTASKS,    // low-latency priority
-            GLOBAL_MAIN_INSTANCE,               // this interpreter instance is the main one (multi-thread)
-            COMMDEXT_COLD_BOOT,                 // is it a warm or cold boot
+            GLOBAL_MAIN_INSTANCE,                  // this interpreter instance is the main one (multi-thread)
+            COMMDEXT_COLD_BOOT,                    // is it a warm or cold boot
             NANOGRAPH_SCHD_NO_SCRIPT,              // debugging scheme used during execution
             NANOGRAPH_SCHD_RET_END_ALL_PARSED      // interpreter returns after all nodes are parsed
             );

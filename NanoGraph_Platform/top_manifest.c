@@ -220,7 +220,6 @@ uint32_t* get_graph_address(uint32_t graph_idx)
   @param[in/out]    none
   @return           int
  */
-
 void platform_init_specific(NanoGraph_init_t* data)
 {
 #ifdef GRAPH_FROM_PLATFORM
@@ -245,8 +244,12 @@ void arm_memory_swap(nanograph_instance_t* S)
     static int i;
     i = 1;
     return;
-    //uint8_t memBankBitFields[(7 + MAX_PROC_MEMBANK) / 8];
 }
+
+
+
+/*  NULL TASK */
+void arm_stream_null_task (int32_t c, nanograph_handle_t i, void *d, uint32_t *s)  {}
 
 /*==========================================================================================================================*/
 
