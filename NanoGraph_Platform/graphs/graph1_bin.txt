@@ -1,0 +1,106 @@
+//--------------------------------------
+//  DATE Mon Feb 23 14:59:21 2026
+//  AUTOMATICALLY GENERATED CODES
+//  DO NOT MODIFY !
+//--------------------------------------
+//  Source graph1.txt 
+//--------------------------------------
+0x0000005F, // 000 000 Size, Flash=h32 +RAM=h12 +Buffers=h4F, all W32, not compressed 
+0x00000100, // 004 001 interpreter version 
+0x00000000, // 008 002 memory consumption in bank 0-3 (0xFF = 100%, 0x3F = 25%) 
+0x00000000, // 00C 003 bank 4-7  (banks of long_offset[4-7]) 
+0x00000000, // 010 004 bank 8-11  
+0x00000000, // 014 005 bank 12-15 
+0x40000012, // 018 006 GRAPH_PIO_HW used from here 
+0x00000009, // 01C 007  
+0x4000001B, // 020 008 GRAPH_PIO_GRAPH used from here 
+0x00000008, // 024 009  
+0x40000023, // 028 00A GRAPH_SCRIPTS used from here 
+0x00000000, // 02C 00B  
+0x40000023, // 030 00C GRAPH_LINKED_LIST used from here 
+0x0000000F, // 034 00D  
+0x00000000, // 038 00E GRAPH_FORMATS to MEMID 0 position 00000000 
+0x00000008, // 03C 00F  
+0x00000020, // 040 010 GRAPH_ARCS to MEMID 0 position 00000020 
+0x0000000A, // 044 011  
+0x0000FFFF, // 048 012 IO(HW0) Not Connected InstID_0  
+0x0000FFFF, // 04C 013 IO(HW1) Not Connected InstID_0  
+0x00000000, // 050 014 IO(HW2) GraphID(0)    InstID_0  
+0x00000000, // 054 015 IO(HW3) GraphID(0)    InstID_0  
+0x00000000, // 058 016 IO(HW4) GraphID(0)    InstID_0  
+0x00000000, // 05C 017 IO(HW5) GraphID(0)    InstID_0  
+0x0000FFFF, // 060 018 IO(HW6) Not Connected InstID_0  
+0x00000000, // 064 019 IO(HW7) GraphID(0)    InstID_0  
+0x00000001, // 068 01A IO(HW8) GraphID(1)    InstID_0  
+0x00001000, // 06C 01B IO(graph0) 0 arc 0 set0copy1=0 rx0tx1=0 servant1 1 buffer allocation 0 
+0x00000000, // 070 01C IO(settings 0, fmtProd 0 (L=32) fmtCons 0 (L=32) 
+0x00000000, // 074 01D  
+0x00000000, // 078 01E  
+0x00001001, // 07C 01F IO(graph1) 0 arc 1 set0copy1=0 rx0tx1=0 servant1 1 buffer allocation 0 
+0x00000000, // 080 020 IO(settings 0, fmtProd 1 (L=2) fmtCons 0 (L=32) 
+0x00000000, // 084 021  
+0x00000000, // 088 022  
+0x00004406, // 08C 023 -----  arm_stream_filter(0) idx:6 nRX 1 nTX 1 lockArc 1 Who0/0/0 script0 
+0x00000000, // 090 024  
+0x08010000, // 094 025 ARC 0 Rx0Tx1 0 L=32  -- ARC 1 Rx0Tx1 1 L=32 KEY0     
+0x00000050, // 098 026 Nb Memreq 2  ClearSwap 0 -Static memory bank  
+0x00000018, // 09C 027  bank 0 stat0work1ret2 = 0 size 24(h18)  
+0x00000070, // 0A0 028 Static memory bank (Swap 0)  
+0x0000004E, // 0A4 029  bank 1 stat0work1ret2 = 0 size 78(h4e)  
+0x01000007, // 0A8 02A ParamLen 6+1 Preset 1 Tag0ALL 0 
+0x01020100, // 0AC 02B (0) 
+0x01A602A9, // 0B0 02C (1) 
+0x5D2D02A9, // 0B4 02D (2) 
+0x02A9C4C7, // 0B8 02E (3) 
+0x02A9FAC2, // 0BC 02F (4) 
+0xC41D6695, // 0C0 030 (5) 
+0x000003FF, // 0C4 031 vvvvvvvvvvv RAM vvvvvvvvvvv ^^^^^^^^^ END OF LINKED-LIST ^^^^^^^^^  
+0x00000020, // 0C8 032 000 000 Format  0 frameSize 32  
+0x00003000, // 0CC 033 004 001           nchan 1 raw 3 
+0x00000000, // 0D0 034 008 002           FS[Hz]=0.000000 
+0x00000000, // 0D4 035 00C 003           domain-dependent 
+0x00000002, // 0D8 036 010 004 Format  1 frameSize 2  
+0x00003000, // 0DC 037 014 005           nchan 1 raw 3 
+0x00000000, // 0E0 038 018 006           FS[Hz]=0.000000 
+0x00000000, // 0E4 039 01C 007           domain-dependent 
+0x00000050, // 0E8 03A 020 008 ARC0 -IO- Base 50h (0h words) fmtProd_0 (frameL 32) 
+0x00000020, // 0EC 03B 024 009       IO buffer with base address redirection, no memory allocation, the Size is from the producer 
+0x00000000, // 0F0 03C 028 00A       IO 0 ===> arm_stream_filter 
+0x00000000, // 0F4 03D 02C 00B       fmtCons 0 fmtProd 0   
+0x00000000, // 0F8 03E 030 00C       log producer/consumer flow errors 
+0x00000050, // 0FC 03F 034 00D ARC1 -IO- Base 50h (0h words) fmtProd_1 (frameL 2) 
+0x00000020, // 100 040 038 00E       IO buffer with base address redirection, no memory allocation, the Size is from the producer 
+0x00000000, // 104 041 03C 00F       IO 0 ===> arm_stream_filter 
+0x00000000, // 108 042 040 010       fmtCons 0 fmtProd 1   
+0x00000001, // 10C 043 044 011       log producer/consumer flow errors 
+0x00000000, // 110 044 048 012  
+0x00000000, // 114 045 04C 013  
+0x00000000, // 118 046 050 014 S inode 0 arm_stream_filter imem 0 Size 24/18 
+0x00000000, // 11C 047 054 015 S inode 0 arm_stream_filter imem 0 Size 24/18 
+0x00000000, // 120 048 058 016 S inode 0 arm_stream_filter imem 0 Size 24/18 
+0x00000000, // 124 049 05C 017 S inode 0 arm_stream_filter imem 0 Size 24/18 
+0x00000000, // 128 04A 060 018 S inode 0 arm_stream_filter imem 0 Size 24/18 
+0x00000000, // 12C 04B 064 019 S inode 0 arm_stream_filter imem 0 Size 24/18 
+0x00000000, // 130 04C 068 01A S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 134 04D 06C 01B S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 138 04E 070 01C S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 13C 04F 074 01D S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 140 050 078 01E S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 144 051 07C 01F S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 148 052 080 020 S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 14C 053 084 021 S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 150 054 088 022 S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 154 055 08C 023 S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 158 056 090 024 S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 15C 057 094 025 S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 160 058 098 026 S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 164 059 09C 027 S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 168 05A 0A0 028 S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 16C 05B 0A4 029 S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 170 05C 0A8 02A S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 174 05D 0AC 02B S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 178 05E 0B0 02C S inode 0 arm_stream_filter imem 1 Size 78/4e 
+0x00000000, // 17C 05F 0B4 02D  
+0x00000000, // 180 060 0B8 02E  
+// bank       size            consumed        static   +    working
+//  0    400000 ( 61A80)    190 (   BE)    190 (   BE)      0 (    0)
