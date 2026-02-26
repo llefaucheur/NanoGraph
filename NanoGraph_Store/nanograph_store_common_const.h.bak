@@ -159,7 +159,7 @@
     #define SIZE_EXT_OFF_FMT0_LSB  0u /*    */
     
     /* number of physical memory banks of the processor, for the graph processing */
-    #define MAX_MAX_PROC_MEMBANK ((1<< (ADDR_OFFSET_FMT0_MSB - ADDR_OFFSET_FMT0_LSB +1))-1)
+    #define MAX_PROC_MEMBANK ((1<< (ADDR_OFFSET_FMT0_MSB - ADDR_OFFSET_FMT0_LSB +1))-1)
     
 
 

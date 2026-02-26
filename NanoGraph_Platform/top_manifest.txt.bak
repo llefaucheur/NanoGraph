@@ -23,7 +23,7 @@
 ;   swap      mem ID to use for the memory swaps (-1 none)
 
 ;---MEMID SIZE  A S T SWAP  Comments 
-    0  40000   1 0 1 -1    shared memory to all processors
+    0  400000   1 0 1 -1    shared memory to all processors
 
 
 ;=================================================================
