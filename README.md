@@ -17,7 +17,9 @@ By standardizing node interfaces, formalizing platform descriptions, and abstrac
 
 NanoGraph ultimately establishes the foundation for a scalable ecosystem of interoperable software components across heterogeneous embedded platforms.
 
+------
 
+#### Quick start ([link](QuickStart.md))
 
 ------
 
