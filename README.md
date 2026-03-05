@@ -88,10 +88,10 @@ Once the platform and nodes are defined, the computing graph is created using lo
 ### Available Tools
 
 - `NanoGraph_Tools\NanoGraph_GUI`
-   Generates a textual description of the links between nodes *(Work In Progress)*.
+   Generates a textual description of the links between nodes.
 - `NanoGraph_Tools\NanoGraph_Compiler`
    Produces the binary graph file.
-   See the `doc` folder for syntax documentation *(Work In Progress)*.
+   See the `doc` folder for syntax documentation.
 
 ------
 
