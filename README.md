@@ -21,8 +21,11 @@ NanoGraph ultimately establishes the foundation for a scalable ecosystem of inte
 
 #### Quick start ([link](QuickStart.md))
  NanoGraph for computers ([link](https://github.com/llefaucheur/NanoGraph_Computer/))
+
  NanoGraph for Renesas RA8E1 ([link](https://github.com/llefaucheur/NanoGraph_Renesas_RA8E1/))
- NanoGraph for Infineon PSOC E84 ([link](https://github.com/llefaucheur/NanoGraph_Infineon_PSOC_E84/))
+
+NanoGraph for Infineon PSOC E84 ([link](https://github.com/llefaucheur/NanoGraph_Infineon_PSOC_E84/))
+
   in preparation : WIO-terminal,MCXC041,MCXN236,STM32C0116,STM32U083,MSM0L1306
 
 ------
@@ -125,4 +128,3 @@ It enables:
 ------
 
 NanoGraph provides a flexible and scalable framework for deploying signal processing and machine learning applications across heterogeneous embedded platforms.
-
